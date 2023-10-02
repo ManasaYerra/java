@@ -1,0 +1,18 @@
+class upAs
+{
+	public static void main(String[] args) 
+	{
+		char ch1='A';
+		char ch2='Z';
+		int num1=65;
+		int num2=90; 
+		{
+			for(char c=ch1;c<=ch2;c++)
+		    for(int n=num1;n<=num2;n++)
+			{
+		System.out.println(c);
+		System.out.println(n);
+			}
+		}
+	}
+}
