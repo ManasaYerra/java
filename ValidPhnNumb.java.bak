@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class ValidPhnNumb
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter phone number");
+		long p1=sc.nextLong();
+		System.out.println("Enter valid phone number");
+		long v1=sc.nextLong();
+		{
+			long count=0;
+			while(p1>0)
+			{
+				long rem=p1%10;
+				count=count+1;
+				p1=p1/10;
+			}
+				if(count==10)
+				{
+					System.out.println("Your phone number is valid");
+				}
+				else
+					System.out.println("Your phone number is not valid");
+		
+		}
+	}
+}
